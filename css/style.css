@@ -1,0 +1,21 @@
+
+div{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	display: flex;
+	flex-direction: column;
+
+	justify-content: center;
+	align-items: center;
+}
+
+#pixel-grid{
+	margin: 100px;
+	width: 1000px;
+	display: flex;
+	flex-wrap: wrap; 
+
+}
