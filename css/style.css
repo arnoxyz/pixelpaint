@@ -17,5 +17,15 @@ body{
 	width: 1000px;
 	display: flex;
 	flex-wrap: wrap; 
-
 }
+
+#options{
+	display: flex;
+	width: 177px;
+	align-items: center;
+	gap: 15px;
+}
+
+
+
+
