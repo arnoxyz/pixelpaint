@@ -1,5 +1,7 @@
 main();
 
+colorPicker = "white"; //default 
+setColor();
 
 /*
  * main function all 
@@ -35,8 +37,18 @@ function createPixelDiv(id){
 	pixelGridField.appendChild(div);
 
 	div.addEventListener('mouseover', () => {
-		div.style.background = "white";
+		div.style.background = setColor();
 	});
 }
 
 
+/*
+ * Color Picker, return current selected value of the color picker
+*/
+function setColor(){
+	const colorField = document.querySelector("#selectedColorInput");
+	return colorField.value;
+}
+
+
+ 
